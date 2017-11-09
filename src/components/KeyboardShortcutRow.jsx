@@ -38,7 +38,7 @@ function KeyboardShortcutRow({
         <span
           {...css(styles.KeyboardShortcutRow_key)}
           role="img"
-          aria-label={`${label},`}
+          aria-label={`${label},`} // add a comma so screen readers will pause before reading the action
         >
           {unicode}
         </span>
